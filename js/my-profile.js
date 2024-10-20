@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
     
-   // Function para cargar las dorecciones desde localStorage y mostrarlas
+   // Function para cargar las direcciones desde localStorage y mostrarlas
 
    function loadProfileAddresses() {
     const savedAddresses = JSON.parse(localStorage.getItem('addresses')) || [];
